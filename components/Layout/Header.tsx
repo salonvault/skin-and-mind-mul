@@ -48,7 +48,7 @@ export default function Header() {
           aria-label={`${siteIdentity.brandName} home`}
           className="flex h-11 w-[106px] items-center font-heading text-[22px] font-semibold leading-none tracking-[-0.02em] md:w-[150px] md:text-[26px]"
         >
-          <span title={siteIdentity.brandName} className={`max-w-full truncate ${pastHero ? "text-[var(--color-foreground)]" : "text-white"}`}>{siteIdentity.brandName}</span>
+          <span title={siteIdentity.brandName} className={`max-w-full  ${pastHero ? "text-[var(--color-foreground)]" : "text-white"}`}>{siteIdentity.brandName}</span>
         </a>
 
         <nav
