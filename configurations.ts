@@ -1,3 +1,4 @@
+
 export type SiteConfiguration = {
   brandName: string;
   location: string;
@@ -13,17 +14,17 @@ export type SiteConfiguration = {
 };
 
 export const configurations: SiteConfiguration = {
-  brandName: "Asthetics",
-  location: "Hospital Road, Highway Officers Colony, Civil Lines",
-  city: "Gujranwala",
+  brandName: "Skin & Mind wellness clinic",
+  location: "Danish street office 1 chowk, Bosan Rd, Bahadurpur, Multan, 60000, Pakistan",
+  city: "Multan",
   region: "Punjab",
   country: "Pakistan",
   countryCode: "PK",
-  phone: "+92 321 4089006",
-  whatsapp: "+92 321 4089006",
-  instagram: "https://www.instagram.com/dermotique_skin_laser_centre/",
+  phone: "+923361416666",
+  whatsapp: "+923361416666",
+  instagram: "",
   facebook: "",
-  baseUrl: "https://dermotique.vercel.app",
+  baseUrl: "https://skin-and-mind-mul.vercel.app",
 };
 
 const digitsOnly = (value: string) => value.replace(/\D/g, "");
